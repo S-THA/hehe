@@ -1,24 +1,4 @@
-/* 3. Preloader */
-#preloader {
-	position: fixed;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	background-color:#ef6a8a; /* change if the mask should have another color then white */
-	z-index:9999999; /* makes sure it stays on top */
-}
 
-.spinner {
-	position:absolute;
-	left:50%; /* centers the loading animation horizontally one the screen */
-	top:50%; /* centers the loading animation vertically one the screen */
-	width: 50px;
-	height: 30px;
-	text-align: center;
-	font-size: 10px;
-	margin-left:-25px;
-}
 
 .spinner > div {
 	background-color: #fff;
